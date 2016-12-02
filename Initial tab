@@ -59,3 +59,5 @@ start_point
                                        size=3)
  end_point 
 geom_path(aes(x = start.station.longitude, y = start.station.latitude, xend = end.station.longitude, yend = yend.station.latitude, colour = "curve"), data = dat.map.ten[dat.map.ten$start.station.name== input$StartStation])
+}
+)
